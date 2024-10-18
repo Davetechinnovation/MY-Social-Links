@@ -14,7 +14,6 @@ body{
 
 .container{
    margin: 200px auto;
-   
     text-align: center;
     background-color: black;
     width: 430px;
@@ -111,7 +110,7 @@ body{
          text-align: center;
          background-color: black;
          width: 430px;
-         height: 100vh;
+         height: 110vh;
          border: 1px solid yellow;
          border-radius: 10px;
         overflow-x: hidden;
