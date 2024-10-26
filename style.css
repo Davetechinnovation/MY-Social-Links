@@ -9,15 +9,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     overflow-x: hidden;
-   
+   height: auto;
 }
 
 .container{
    margin: 200px auto;
     text-align: center;
     background-color: black;
-    width: 430px;
-    height: 80vh;
+    max-width: 730px;
+    height: auto;
     border: 1px solid yellow;
     border-radius: 10px;
 }
@@ -67,8 +67,8 @@ body{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    width: 350px;
-    padding-bottom: 10px;
+    width: 89%;
+    padding-bottom: 50px;
     position: relative;
     top: -30px;
     right: -20px;
@@ -100,32 +100,38 @@ body{
 
    body{
     background: linear-gradient(to top, #000000, #ffeb3b);
-    background-size: 100vw 100vh; 
+    background-size: 130vw 130vh; 
    }
     
 
     .container{
-        margin: 100px auto;
+        margin: 200px auto;
         
          text-align: center;
          background-color: black;
          width: 430px;
-         height: 80vh;
+         height: auto;
          border: 1px solid yellow;
          border-radius: 10px;
-       
+      
      }
 }
 
 @media (max-width: 468px) {
+
+       
+   body{
+    background: linear-gradient(to top, #000000, #ffeb3b);
+    background-size: 130vw 130vh; 
+   }
+
         .container{
-         margin: 10px auto;
-         position: relative;
-         top: 8px;
+         margin: 200px auto;
+        
          text-align: center;
          background-color: black;
          width: 430px;
-         height: 110vh;
+         height: auto;
          border: 1px solid yellow; 
          border-radius: 10px;
          overflow-x: hidden;
